@@ -3,7 +3,7 @@ import React from "react";
 const Greeting = props => {
   return (
     <div>
-      <h1>{props.greeting}</h1>
+      <h1 style={{ color: "green" }}>{props.greeting}</h1>
       <h2>{props.greeting}</h2>
       <h3>{props.greeting}</h3>
       <h4>{props.greeting}</h4>
